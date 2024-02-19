@@ -55,9 +55,9 @@ class RadioTest {
 
     @Test
     void shouldSwitchToValidStation(){
-        Radio radio = new Radio(20);
-        radio.setCurrentStation(15);
-        assertEquals(15, radio.getCurrentStation());
+        Radio radio = new Radio();
+        radio.setCurrentStation(6);
+        assertEquals(6, radio.getCurrentStation());
     }
     @Test
     void shouldSwitchToInValidStation(){
